@@ -11,7 +11,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>thatsWE</title>
+    <title>thatsSoft</title>
 
 
     <!-- ===============================================-->
@@ -105,20 +105,12 @@
                         <li class="nav-item"><a class="nav-link px-3"
                                 href="{{ url('/') }}">{{ __('messages.home') }}</a></li>
                         <li class="nav-item"><a class="nav-link px-3"
-                                href="{{ url('/offer') }}">{{ __('messages.get_info') }}</a></li>
+                                href="{{ url('/offer') }}">{{ __('messages.bilder') }}</a></li>
                         <li class="nav-item"><a class="nav-link px-3"
-                                href="{{ url('/recommendation') }}">{{ __('messages.recommendation') }}</a>
+                                href="{{ url('/recommendation') }}">{{ __('messages.diverses') }}</a>
                         </li>
 
-                        <li class="nav-item"><a class="nav-link px-3"
-                                href="{{ url('/images') }}">{{ __('messages.images') }}</a>
-                        </li>
 
-                        <li class="nav-item"><a class="nav-link px-3"
-                                href="{{ url('/policy') }}">{{ __('messages.privacy_policy') }}</a></li>
-
-                        <li class="nav-item"><a class="nav-link px-3"
-                                href="{{ url('/order') }}">{{ __('messages.order') }}</a></li>
                     </ul>
                     <div class="col-md-4">
                         <form action="{{ route('LangChange') }}" method="GET">
