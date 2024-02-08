@@ -1,14 +1,20 @@
 <?php
 
 return array(
-  'welcome2' => 'Bienvenido al centro de comando para las vacaciones perfectas.',
-  'fulfill' => 'Cumple los deseos de tus clientes y aumenta el potencial de tu negocio con "thatsWE"!',
+
+  'welcome2' => 'Tu clave para resultados de vacaciones inolvidables',
+  'fulfill' => 'Solo en tu agencia de viajes participante: El compañero digital de vacaciones.',
+  'fulfill_2' => '¡Reserva tus vacaciones de ensueño y benefíciate de las funciones exclusivas!',
+  'diverse' => 'diversas',
+  'about_us_description' => '¡Bienvenido a "thatsWE" - esta plataforma especialmente para agencias de viajes para ofrecer a sus clientes una experiencia de viaje inolvidable! Exclusivamente para agentes de viajes, nuestra aplicación ofrece características únicas - desde información sobre el inicio de tus vacaciones hasta muchas situaciones durante tus vacaciones para guardar tus experiencias de vacaciones.',
+
   'send_offer' => 'Enviar Oferta',
   'get_info' => 'Obtener Información',
   'recommendation' => 'Recomendación',
   'about_us' => 'Sobre Nosotros',
   'home' => 'Inicio',
-  'about_us_description' => '¡Bienvenido a “thatsWE” – esta plataforma está diseñada específicamente para agencias de viajes para ofrecer a sus clientes una experiencia de viaje inolvidable! Exclusivamente para agencias de viajes, nuestra aplicación ofrece funciones únicas, desde información sobre el inicio de tus vacaciones hasta diversas situaciones durante tu viaje para guardar tus experiencias vacacionales. Prueba la versión de prueba gratuita ahora y experimenta lo que significa la exclusividad, la amabilidad hacia el cliente y el aumento de las ventas para tu agencia de viajes. Ganar clientes y aprovechar el poder de la codicia del cliente – “¡Yo también quiero eso!”',
+
+
   'website_dev' => 'Desarrollo del Sitio Web Por',
   'company_info' => 'Información de la Empresa',
   'company_name' => 'Nombre de la Empresa',

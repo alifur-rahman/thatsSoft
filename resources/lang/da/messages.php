@@ -1,14 +1,22 @@
 <?php
 
 return array(
-  'welcome2' => 'Velkommen til kontrolcentret for den perfekte ferie.',
-  'fulfill' => 'Opfyld dine kunders ønsker og øg dit forretningspotentiale med "thatsWE"!',
+
+
+  'welcome2' => 'Din nøgle til uforglemmelige ferieresultater',
+  'fulfill' => 'Kun hos din deltagende rejsebureau: Den digitale feriekammerat.',
+  'fulfill_2' => 'Book din drømmeferie og få gavn af de eksklusive funktioner!',
+  'diverse' => 'forskellige',
+  'about_us_description' => 'Velkommen til "thatsWE" - denne platform specielt til rejsebureauer til at tilbyde deres kunder en uforglemmelig rejseoplevelse! Udelukkende for rejseagenter tilbyder vores app unikke funktioner - fra information om starten på din ferie til mange situationer under din ferie til at gemme dine ferieoplevelser.',
+
+
   'send_offer' => 'Send Tilbud',
   'get_info' => 'Få Information',
   'recommendation' => 'Anbefaling',
   'about_us' => 'Om Os',
   'home' => 'Hjem',
-  'about_us_description' => 'Velkommen til "thatsWE" - denne platform er specifikt designet til rejsebureauer for at tilbyde deres kunder en uforglemmelig rejseoplevelse! Udelukkende for rejsebureauer tilbyder vores app unikke funktioner - fra information om starten af din ferie til mange situationer under din ferie til gemning af dine ferieoplevelser. Prøv den gratis prøveversion nu og oplev, hvad "thatsWE" eksklusivitet, kundeflits og øgede salg betyder for dit rejsebureau. Vind kunder og udnyt kundens grådigheds kraft - "Jeg vil også have det!"',
+
+
   'website_dev' => 'Website-udvikling af',
   'company_info' => 'Virksomhedsinformation',
   'company_name' => 'Virksomhedsnavn',

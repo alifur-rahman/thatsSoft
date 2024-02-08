@@ -1,14 +1,20 @@
 <?php
 
 return array(
-  'welcome2' => 'Mükemmel tatil için komuta merkezine hoş geldiniz.',
-  'fulfill' => 'Müşteri isteklerini karşılayın ve iş potansiyelinizi "thatsWE" ile artırın!',
+
+  'welcome2' => 'Unutulmaz tatil sonuçları için anahtarınız',
+  'fulfill' => 'Sadece katılan seyahat acentenizde: Dijital tatil arkadaşı.',
+  'fulfill_2' => 'Hayalini kurduğunuz tatilinizi rezerve edin ve özel özelliklerden faydalanın!',
+  'diverse' => 'çeşitli',
+  'about_us_description' => '"thatsWE"\'ye hoş geldiniz - seyahat acentelerinin müşterilerine unutulmaz bir seyahat deneyimi sunmaları için özel olarak tasarlanmış bu platforma! Sadece seyahat acenteleri için olan uygulamamız, tatilinizin başlangıcı hakkında bilgilerden tatiliniz sırasında birçok duruma kadar tatil deneyimlerinizi kaydetmeye kadar birçok benzersiz özellik sunar.',
+
   'send_offer' => 'Teklif Gönder',
   'get_info' => 'Bilgi Al',
   'recommendation' => 'Öneri',
   'about_us' => 'Hakkımızda',
   'home' => 'Ana Sayfa',
-  'about_us_description' => '"thatsWE" ile seyahat acenteleri için özel olarak tasarlanmış bu platforma hoş geldiniz! Sadece seyahat acenteleri için olan uygulamamız, tatilinizin başlangıcıyla ilgili bilgilerden tatiliniz sırasında birçok duruma kadar benzersiz fonksiyonlar sunuyor. Ücretsiz deneme sürümünü şimdi deneyin ve "thatsWE"nin özel avantajlarını, müşteri dostluğunu ve satışlarınızı artırmanın ne anlama geldiğini keşfedin. Müşteri kazanın ve müşteri açlığının gücünü kullanın - "Bunu ben de istiyorum!"',
+
+
   'website_dev' => 'Web Sitesi Geliştirme',
   'company_info' => 'Şirket Bilgisi',
   'company_name' => 'Şirket Adı',

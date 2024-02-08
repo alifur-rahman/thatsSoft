@@ -1,14 +1,20 @@
 <?php
 
 return array(
-  'welcome2' => 'Welcome to the command center for the perfect vacation.',
-  'fulfill' => 'Fulfill your customers wishes and increase your business potential with the "thatsWE"!',
+  'welcome2' => 'Your key to unforgettable holiday results',
+  'fulfill' => 'Only at your participating travel agency: The digital holiday companion.',
+  'fulfill_2' => 'Book your dream vacation and benefit from the exclusive features!',
+
   'send_offer' => 'Send Offer',
   'get_info' => 'Get Information',
   'recommendation' => 'Recommendation',
   'about_us' => 'About Us',
   'home' => 'Home',
-  'about_us_description' => 'Welcome to “thatsWE” – this platform specifically for travel agencies to offer their customers an unforgettable travel experience! Exclusively for travel agencies, our app offers unique functions - from information about the start of your vacation to many situations during your vacation to saving your vacation experiences Try the free trial version now and experience what “thatsWE” exclusivity, customer friendliness and increased sales mean for your travel agency. Winning customers and using the power of customer greed – “I want that too!”',
+  'diverses' => 'Diverses',
+
+  'about_us_description' => 'Welcome to "thatsWE" - this platform especially for travel agencies to offer their customers an unforgettable travel experience! Exclusively for travel agents, our app offers unique features - from information about the start of your vacation to many situations during your vacation to saving your vacation experiences.',
+
+
   'website_dev' => 'Website Development By',
   'company_info' => 'Company Information',
   'company_name' => 'Company Name',

@@ -93,7 +93,7 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 " data-navbar-on-scroll="bg-200">
             <div class="container"><a class="navbar-brand" href="{{ url('/') }}">
                     <img src="{{ asset('assets/img/icons/logo3.png') }}" alt="logo"
-                        style="max-width: 180px; width: 100%; height: auto;" />
+                        style="max-width: 80px; width: 100%; height: auto;" />
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -105,9 +105,9 @@
                         <li class="nav-item"><a class="nav-link px-3"
                                 href="{{ url('/') }}">{{ __('messages.home') }}</a></li>
                         <li class="nav-item"><a class="nav-link px-3"
-                                href="{{ url('/offer') }}">{{ __('messages.bilder') }}</a></li>
+                                href="{{ url('/images') }}">{{ __('messages.images') }}</a></li>
                         <li class="nav-item"><a class="nav-link px-3"
-                                href="{{ url('/recommendation') }}">{{ __('messages.diverses') }}</a>
+                                href="{{ url('/policy') }}">{{ __('messages.diverses') }}</a>
                         </li>
 
 
