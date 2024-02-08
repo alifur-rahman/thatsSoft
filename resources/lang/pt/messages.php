@@ -91,4 +91,7 @@ return array(
   'full_information' => 'Informação Completa',
   'images' => 'Imagens',
   'images_page_title' => 'Imagens de ThatsWE',
+
+
+  'agency_zip_code_title' => 'Agência de Viagens com ThatsWE por Código Postal',
 );

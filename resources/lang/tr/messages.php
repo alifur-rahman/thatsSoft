@@ -89,4 +89,7 @@ return array(
   'full_information' => 'Tam Bilgi',
   'images' => 'Resimler',
   'images_page_title' => 'ThatsWE İmajları',
+
+
+  'agency_zip_code_title' => 'Rehberlerinizi ThatsWE için PLZ ile arayın',
 );

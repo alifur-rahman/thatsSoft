@@ -92,4 +92,8 @@ return array(
   'full_information' => 'Informazioni Complete',
   'images' => 'Immagini',
   'images_page_title' => 'Immagini da ThatsWE',
+
+
+  'agency_zip_code_title' => 'Agenzie di viaggi con ThatsWE per ciascun CAP',
 );
+

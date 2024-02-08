@@ -93,4 +93,6 @@ return array(
   'full_information' => 'Fuld Information',
   'images' => 'Images',
   'images_page_title' => 'Images fra ThatsWE',
+
+  'agency_zip_code_title' => 'Reisebureaus med ThatsWE efter postnummer',
 );
