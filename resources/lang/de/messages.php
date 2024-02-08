@@ -94,4 +94,7 @@ return array(
     'full_information' => 'Fuld Information',
     'images' => 'Bilder',
     'images_page_title' => 'Bilder fra ThatsWE',
+
+
+    'agency_zip_code_title' => 'Reiseveranstalter mit ThatsWE nach PLZ',
 );

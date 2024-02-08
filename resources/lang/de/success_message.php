@@ -111,4 +111,6 @@ return array(
     'marketing_opportunities_msg_1' => "Nutzen Sie die Kraft des Marketings! 'thatsWE' ermöglicht personalisierte Marketingkampagnen, um die Aufmerksamkeit neuer Kunden zu gewinnen und bestehende zu begeistern.",
 
     'marketing_opportunities_msg_2' => "Nutzen Sie die vielfältige Kraft des Marketings mit „thatswe“.",
+
+
 );

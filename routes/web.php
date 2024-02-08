@@ -20,7 +20,7 @@ Route::get('/', [App\Http\Controllers\TravelController::class, 'welcome'])->name
 
 
 Route::get('/policy', [App\Http\Controllers\TravelController::class, 'policy'])->name('policy-page');
-Route::post('/sujjection/submit', [App\Http\Controllers\TravelController::class, 'sujjectionSubmit'])->name('sujjection-submit');
+Route::post('/recommendation/submit', [App\Http\Controllers\TravelController::class, 'submitRecommendation'])->name('submit-recommendation');
 
 Route::get('change/lang', [App\Http\Controllers\LanguageController::class, 'switch'])->name('LangChange');
 

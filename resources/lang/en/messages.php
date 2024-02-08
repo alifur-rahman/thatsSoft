@@ -93,4 +93,6 @@ return array(
   'full_inoformation' => 'Full Inoformation',
   'images' => 'Images',
   'images_page_title' => 'Images from ThatsWE',
+
+  'agency_zip_code_title' => 'Travel agencies with thatsWE by zip code',
 );

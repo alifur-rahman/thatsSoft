@@ -3,16 +3,7 @@
 @section('content')
     <section class="bg-light al_privecy_page" id="dataProtectionImprint">
         <div class="container">
-            @if (count($errors) > 0)
-                <div class="alert alert-danger">
-                    <strong>Whoops!</strong> There were some problems with your input.<br><br>
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
+
             @if (session('success'))
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
                     <strong>{{ session('success') }}</strong>
@@ -50,292 +41,58 @@
                         </div>
 
                     </div>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="al_sujjection_wrapper h-100">
-                            <div class="card w-100 h-100 position-relative">
-                                <div class="card-body">
-                                    <h2 class="text-center mb-2">{{ __('messages.criticism_and_suggestions') }}</h2>
 
-                                    <form action="{{ route('sujjection-submit') }}" method="POST">
-                                        @csrf
-                                        <div class="mb-2 d-flex justify-content-between align-items-center">
-                                            <label for="your_mail"
-                                                class="form-label w-25">{{ __('messages.your_mail') }}</label>
-                                            <input type="text" class="form-control" id="your_mail" name="your_mail"
-                                                placeholder="{{ __('messages.your_mail') }}">
-                                        </div>
-
-                                        <div class="mb-2 d-flex justify-content-between ">
-                                            <label for="information"
-                                                class="form-label">{{ __('messages.your_information') }}</label>
-                                            <textarea class="form-control al_textarea" name="information" id="information"></textarea>
-                                        </div>
-
-                                        <div class="text-center al_card_footer">
-                                            <div class="mt-2">
-                                                <button type="submit"
-                                                    class="btn btn-primary">{{ __('messages.send') }}</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-xl-4 col-md-6">
                         <div class="al_sujjection_wrapper">
                             <div class="card w-100 h-100 position-relative">
                                 <div class="card-body">
-                                    <h2 class="text-center mb-2">{{ __('messages.information_about_success') }}</h2>
+                                    <h3 class="text-center mb-2">{{ __('messages.agency_zip_code_title') }}</h3>
 
                                     <table class="table table-bordered">
                                         <tbody>
                                             <tr>
                                                 <th>1</th>
-                                                <td class="al_view_info"><span
-                                                        class="info_title">{{ __('success_message.newsletter') }}</span>
-                                                    <div class="al_lognText d-none">
-                                                        <p>
-                                                            {{ __('success_message.newsletter_msg_1') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.newsletter_msg_2') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.newsletter_msg_3') }}
-
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.newsletter_msg_4') }}
-                                                        </p>
-                                                    </div>
-                                                </td>
+                                                <td> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
                                             </tr>
                                             <tr>
                                                 <th>2</th>
-                                                <td class="al_view_info"> <span
-                                                        class="info_title">{{ __('success_message.exclusivity') }}</span>
-
-                                                    <div class="al_lognText d-none">
-                                                        <p>
-                                                            {{ __('success_message.exclusivity_msg_1') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.exclusivity_msg_2') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.exclusivity_msg_3') }}
-                                                        </p>
-                                                    </div>
-
-                                                </td>
+                                                <td> </td>
                                             </tr>
                                             <tr>
                                                 <th>3</th>
-                                                <td class="al_view_info"> <span
-                                                        class="info_title">{{ __('success_message.customer_growth') }}</span>
-
-                                                    <div class="al_lognText d-none">
-                                                        <p>
-                                                            {{ __('success_message.customer_growth_msg_1') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.customer_growth_msg_2') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.customer_growth_msg_3') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.customer_growth_msg_4') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.customer_growth_msg_5') }}
-                                                        </p>
-                                                        <p>
-
-                                                            {{ __('success_message.customer_growth_msg_6') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.customer_growth_msg_7') }}
-                                                        </p>
-                                                    </div>
-
-                                                </td>
+                                                <td> </td>
                                             </tr>
                                             <tr>
                                                 <th>4</th>
-                                                <td class="al_view_info"> <span class="info_title">
-                                                        {{ __('success_message.increase_in_sales') }}
-                                                    </span>
-                                                    <div class="al_lognText d-none">
-                                                        <p>
-                                                            {{ __('success_message.increase_in_sales_msg_1') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increase_in_sales_msg_2') }}
-
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increase_in_sales_msg_3') }}
-
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increase_in_sales_msg_4') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increase_in_sales_msg_5') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increase_in_sales_msg_6') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increase_in_sales_msg_7') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increase_in_sales_msg_8') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increase_in_sales_msg_9') }}
-                                                        </p>
-                                                    </div>
-                                                </td>
+                                                <td> </td>
                                             </tr>
                                             <tr>
                                                 <th>5</th>
-                                                <td class="al_view_info"> <span class="info_title">
-                                                        {{ __('success_message.use_of_customer_greed') }}</span>
-                                                    <div class="al_lognText d-none">
-                                                        <p>
-                                                            {{ __('success_message.use_of_customer_greed_msg_1') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.use_of_customer_greed_msg_2') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.use_of_customer_greed_msg_3') }}
-
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.use_of_customer_greed_msg_4') }}
-
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.use_of_customer_greed_msg_5') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.use_of_customer_greed_msg_6') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.use_of_customer_greed_msg_7') }}
-                                                        </p>
-
-                                                    </div>
-                                                </td>
+                                                <td> </td>
                                             </tr>
                                             <tr>
                                                 <th>6</th>
-                                                <td class="al_view_info"> <span
-                                                        class="info_title">{{ __('success_message.customer_loyalty') }}</span>
-                                                    <div class="al_lognText d-none">
-                                                        <p>
-                                                            {{ __('success_message.customer_loyalty_msg_1') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.customer_loyalty_msg_2') }}
-
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.customer_loyalty_msg_3') }}
-
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.customer_loyalty_msg_4') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.customer_loyalty_msg_5') }} <br>
-                                                            {{ __('success_message.customer_loyalty_msg_6') }}
-
-                                                        </p>
-
-
-                                                    </div>
-                                                </td>
+                                                <td> </td>
                                             </tr>
                                             <tr>
                                                 <th>7</th>
-                                                <td class="al_view_info"> <span
-                                                        class="info_title">{{ __('success_message.increased_efficiency') }}</span>
-                                                    <div class="al_lognText d-none">
-                                                        <p>
-                                                            {{ __('success_message.increased_efficiency_msg_1') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increased_efficiency_msg_2') }}
-
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increased_efficiency_msg_3') }}
-
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increased_efficiency_msg_4') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.increased_efficiency_msg_5') }}
-
-                                                        </p>
-
-
-                                                    </div>
-                                                </td>
+                                                <td> </td>
                                             </tr>
                                             <tr>
                                                 <th>8</th>
-                                                <td class="al_view_info"> <span
-                                                        class="info_title">{{ __('success_message.inovative_travel_experiences') }}</span>
-                                                    <div class="al_lognText d-none">
-                                                        <p>
-                                                            {{ __('success_message.inovative_travel_experiences_msg_1') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.inovative_travel_experiences_msg_2') }}
-
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.inovative_travel_experiences_msg_3') }}
-
-                                                        </p>
-
-                                                    </div>
-                                                </td>
+                                                <td> </td>
                                             </tr>
                                             <tr>
                                                 <th>9</th>
-                                                <td class="al_view_info"> <span
-                                                        class="info_title">{{ __('success_message.digital_transformation') }}</span>
-                                                    <div class="al_lognText d-none">
-                                                        <p>
-                                                            {{ __('success_message.digital_transformation_msg_1') }}
-                                                        </p>
-
-                                                    </div>
-                                                </td>
+                                                <td> </td>
                                             </tr>
                                             <tr>
                                                 <th>10</th>
-                                                <td class="al_view_info"> <span
-                                                        class="info_title">{{ __('success_message.marketing_opportunities') }}</span>
-                                                    <div class="al_lognText d-none">
-                                                        <p>
-                                                            {{ __('success_message.marketing_opportunities_msg_1') }}
-                                                        </p>
-                                                        <p>
-                                                            {{ __('success_message.marketing_opportunities_msg_2') }}
-                                                        </p>
-
-                                                    </div>
-                                                </td>
+                                                <td> </td>
                                             </tr>
+
                                         </tbody>
                                     </table>
 
@@ -352,6 +109,131 @@
                         </div>
 
                     </div>
+
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="al_sujjection_wrapper h-100">
+                            <div class="card w-100 h-100 position-relative">
+                                <div class="card-body">
+                                    <h3 class="text-center mb-2">{{ __('messages.recommend_to_friend') }}</h3>
+
+                                    <form action="{{ route('submit-recommendation') }}" method="POST">
+                                        @csrf
+                                        <div class="row justify-content-center">
+                                            <!-- Other form fields -->
+                                            <div class="col-md-12">
+                                                <div class="mb-2">
+                                                    <label for="yourName"
+                                                        class="form-label">{{ __('messages.your_name') }}</label>
+                                                    <input type="text" class="form-control" id="yourName"
+                                                        name="yourName" placeholder="{{ __('messages.your_name') }}">
+                                                    @error('yourName')
+                                                        <span class="text-danger">{{ $message }}</span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-12">
+                                                <div class="mb-2">
+                                                    <label for="personEmail1"
+                                                        class="form-label">{{ __('messages.person_email') }}
+                                                        #1</label>
+                                                    <input type="email" class="form-control" id="personEmail1"
+                                                        name="personEmail1"
+                                                        placeholder="{{ __('messages.person_email') }} #1">
+                                                    @error('personEmail1')
+                                                        <span class="text-danger">At least enter one friend's email </span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-12">
+                                                <div class="mb-2">
+                                                    <label for="personEmail2"
+                                                        class="form-label">{{ __('messages.person_email') }}
+                                                        #2</label>
+                                                    <input type="email" class="form-control" id="personEmail2"
+                                                        name="personEmail2"
+                                                        placeholder="{{ __('messages.person_email') }} #2">
+                                                    @error('personEmail2')
+                                                        <span class="text-danger">{{ $message }}</span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-12">
+                                                <div class="mb-2">
+                                                    <label for="personEmail3"
+                                                        class="form-label">{{ __('messages.person_email') }}
+                                                        #3</label>
+                                                    <input type="email" class="form-control" id="personEmail3"
+                                                        name="personEmail3"
+                                                        placeholder="{{ __('messages.person_email') }} #3">
+                                                    @error('personEmail3')
+                                                        <span class="text-danger">{{ $message }}</span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-12">
+                                                <div class="mb-2">
+                                                    <label for="personEmail3"
+                                                        class="form-label">{{ __('messages.person_email') }}
+                                                        #4</label>
+                                                    <input type="email" class="form-control" id="personEmail4"
+                                                        name="personEmail4"
+                                                        placeholder="{{ __('messages.person_email') }} #4">
+                                                    @error('personEmail4')
+                                                        <span class="text-danger">{{ $message }}</span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-12">
+                                                <div class="mb-2">
+                                                    <label for="personEmail3"
+                                                        class="form-label">{{ __('messages.person_email') }}
+                                                        #5</label>
+                                                    <input type="email" class="form-control" id="personEmail5"
+                                                        name="personEmail5"
+                                                        placeholder="{{ __('messages.person_email') }} #5">
+                                                    @error('personEmail5')
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-12 text-center mt-3">
+                                                <div class="">
+                                                    <button type="submit"
+                                                        class="btn btn-primary">{{ __('messages.send') }}</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- Add more email input fields if needed -->
+
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -450,6 +332,11 @@
                 flex-direction: column;
             }
 
+        }
+
+        .text-danger {
+            font-size: 12px;
+            display: block;
         }
     </style>
 @endsection

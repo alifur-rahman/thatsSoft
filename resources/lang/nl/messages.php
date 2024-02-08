@@ -91,4 +91,7 @@ return array(
   'full_information' => 'Volledige Informatie',
   'images' => 'Afbeeldingen',
   'images_page_title' => 'Afbeeldingen van ThatsWE',
+
+
+  'agency_zip_code_title' => 'Reisbureaus met ThatsWE per postcode',
 );
