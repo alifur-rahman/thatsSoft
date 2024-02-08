@@ -2,14 +2,22 @@
 
 
 return array(
-    'welcome2' => 'Willkommen im Kontrollzentrum für den perfekten Urlaub.',
-    'fulfill' => 'Erfüllen Sie die Wünsche Ihrer Kunden und steigern Sie Ihr Geschäftspotenzial mit dem "thatsWE"!',
+    'welcome2' => 'Ihr Schlüssel zu unvergesslichen Urlaubs-Ergebnissen',
+    'fulfill' => 'Nur bei Ihrem teilnehmenden Reisebüro: Der digitale Urlaubsgeleiter.',
+    'fulfill_2' => 'Buchen Sie Ihren Traumurlaub und profitieren Sie von den exklusiven Funktionen!',
+
+
+
     'send_offer' => 'Angebot senden',
     'get_info' => 'Informationen bekommen',
     'recommendation' => 'Empfehlung',
     'about_us' => 'Über uns',
     'home' => 'Start',
-    'about_us_description' => 'Willkommen bei "thatsWE" – dieser Plattform speziell für Reisebüros, um ihren Kunden ein unvergessliches Reiseerlebnis zu bieten! Exklusiv für Reisebüros bietet unsere App einzigartige Funktionen - von Informationen über den Beginn Ihres Urlaubs bis zu vielen Situationen während Ihres Urlaubs bis hin zum Speichern Ihrer Urlaubserlebnisse. Probieren Sie jetzt die kostenlose Testversion aus und erleben Sie, was Exklusivität, Kundenfreundlichkeit und Umsatzsteigerung für Ihr Reisebüro bedeuten. Kunden gewinnen und die Kraft der Kundenbegierde nutzen – "Das will ich auch!"',
+    'diverses' => 'Verschieden',
+
+    'about_us_description' => '
+    Willkommen bei "thatsWE" - dieser Plattform speziell für Reisebüros, um ihren Kunden ein unvergessliches Reiseerlebnis zu bieten! Exklusiv für Reisebüros bietet unsere App einzigartige Funktionen - von Informationen über den Beginn Ihres Urlaubs bis zu vielen Situationen während Ihres Urlaubs bis hin zum Speichern Ihrer Urlaubserlebnisse.',
+
     'website_dev' => 'Webseitenentwicklung durch',
     'company_info' => 'Unternehmensinformationen',
     'company_name' => 'Firmenname',
@@ -84,6 +92,6 @@ return array(
     'logo_no' => 'Logo-Nr.',
     'close' => 'Luk',
     'full_information' => 'Fuld Information',
-    'images' => 'Images',
-    'images_page_title' => 'Images fra ThatsWE',
+    'images' => 'Bilder',
+    'images_page_title' => 'Bilder fra ThatsWE',
 );

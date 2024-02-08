@@ -1,14 +1,21 @@
 <?php
 
 return array(
-  'welcome2' => 'Welkom bij het commandocentrum voor de perfecte vakantie.',
-  'fulfill' => 'Vervul de wensen van uw klanten en verhoog het zakelijk potentieel met "thatsWE"!',
+
+
+  'welcome2' => 'Je sleutel tot onvergetelijke vakantieresultaten',
+  'fulfill' => 'Alleen bij uw deelnemende reisbureau: De digitale vakantie metgezel.',
+  'fulfill_2' => 'Boek uw droomvakantie en profiteer van de exclusieve functies!',
+  'diverse' => 'diverse',
+  'about_us_description' => 'Welkom bij "thatsWE" - dit platform speciaal voor reisbureaus om hun klanten een onvergetelijke reiservaring te bieden! Exclusief voor reisagenten biedt onze app unieke functies - van informatie over het begin van uw vakantie tot vele situaties tijdens uw vakantie om uw vakantie-ervaringen op te slaan.',
+
   'send_offer' => 'Stuur Aanbieding',
   'get_info' => 'Ontvang Informatie',
   'recommendation' => 'Aanbeveling',
   'about_us' => 'Over Ons',
   'home' => 'Home',
-  'about_us_description' => 'Welkom bij "thatsWE" - dit platform is specifiek ontworpen voor reisbureaus om hun klanten een onvergetelijke reiservaring te bieden! Exclusief voor reisbureaus biedt onze app unieke functies - van informatie over het begin van uw vakantie tot vele situaties tijdens uw vakantie en het opslaan van uw vakantie-ervaringen. Probeer nu de gratis proefversie en ervaar wat "thatsWE" exclusiviteit, klantvriendelijkheid en verhoogde verkoop betekenen voor uw reisbureau. Win klanten en maak gebruik van de kracht van klantengierigheid - "Dat wil ik ook!"',
+
+
   'website_dev' => 'Website-ontwikkeling door',
   'company_info' => 'Bedrijfsinformatie',
   'company_name' => 'Bedrijfsnaam',

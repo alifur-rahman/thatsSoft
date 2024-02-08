@@ -1,14 +1,24 @@
 <?php
 
 return array(
-  'welcome2' => 'Bienvenue au centre de commandement pour des vacances parfaites.',
-  'fulfill' => 'Répondez aux souhaits de vos clients et augmentez le potentiel de votre entreprise avec "thatsWE" !',
+
+
+  'welcome2' => 'Votre clé pour des résultats de vacances inoubliables',
+  'fulfill' => 'Uniquement dans votre agence de voyage participante : Le compagnon numérique de vacances.',
+  'fulfill_2' => 'Réservez vos vacances de rêve et bénéficiez des fonctionnalités exclusives !',
+  'diverse' => 'diverses',
+  'about_us_description' => 'Bienvenue sur "thatsWE" - cette plateforme spécialement conçue pour les agences de voyage afin d\'offrir à leurs clients une expérience de voyage inoubliable ! Exclusivement pour les agents de voyage, notre application propose des fonctionnalités uniques - de l\'information sur le début de vos vacances à de nombreuses situations pendant vos vacances pour sauvegarder vos expériences de vacances.',
+
+
+
   'send_offer' => 'Envoyer une offre',
   'get_info' => 'Obtenir des informations',
   'recommendation' => 'Recommandation',
   'about_us' => 'À propos de nous',
   'home' => 'Accueil',
-  'about_us_description' => 'Bienvenue sur "thatsWE" - cette plateforme est spécifiquement conçue pour les agences de voyages afin d\'offrir à leurs clients une expérience de voyage inoubliable ! Exclusivement réservée aux agences de voyages, notre application offre des fonctionnalités uniques, de l\'information sur le début de vos vacances à de nombreuses situations pendant vos vacances jusqu\'à la sauvegarde de vos expériences de vacances. Essayez la version d\'essai gratuite dès maintenant et découvrez ce que signifie l\'exclusivité, la convivialité client et l\'augmentation des ventes pour votre agence de voyages. Gagnez des clients et utilisez le pouvoir de la cupidité du client - "Je veux ça aussi !"',
+
+
+
   'website_dev' => 'Développement du site Web par',
   'company_info' => 'Informations sur l\'entreprise',
   'company_name' => 'Nom de l\'entreprise',
