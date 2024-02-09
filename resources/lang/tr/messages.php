@@ -6,7 +6,10 @@ return array(
   'fulfill' => 'Sadece katılan seyahat acentenizde: Dijital tatil arkadaşı.',
   'fulfill_2' => 'Hayalini kurduğunuz tatilinizi rezerve edin ve özel özelliklerden faydalanın!',
   'diverse' => 'çeşitli',
-  'about_us_description' => '"thatsWE"\'ye hoş geldiniz - seyahat acentelerinin müşterilerine unutulmaz bir seyahat deneyimi sunmaları için özel olarak tasarlanmış bu platforma! Sadece seyahat acenteleri için olan uygulamamız, tatilinizin başlangıcı hakkında bilgilerden tatiliniz sırasında birçok duruma kadar tatil deneyimlerinizi kaydetmeye kadar birçok benzersiz özellik sunar.',
+
+  'about_us_description_1' => 'Hoş geldiniz "thatsWE" - bu platforma sadece seyahat acenteniz aracılığıyla erişebilirsiniz. Dijital tatil arkadaşınız hakkında soru sorun.',
+  'about_us_description_2' => 'Bu uygulama, tatilinizin başlangıcı hakkında bilgilerden tatiliniz sırasında birçok duruma, tatil deneyimlerinizi kaydetmeye ve kişisel tatil belgelerinizi oluşturmaya kadar benzersiz özellikler sunar.',
+
 
   'send_offer' => 'Teklif Gönder',
   'get_info' => 'Bilgi Al',

@@ -15,8 +15,9 @@ return array(
     'home' => 'Start',
     'diverses' => 'Verschieden',
 
-    'about_us_description' => '
-    Willkommen bei "thatsWE" - dieser Plattform speziell für Reisebüros, um ihren Kunden ein unvergessliches Reiseerlebnis zu bieten! Exklusiv für Reisebüros bietet unsere App einzigartige Funktionen - von Informationen über den Beginn Ihres Urlaubs bis zu vielen Situationen während Ihres Urlaubs bis hin zum Speichern Ihrer Urlaubserlebnisse.',
+    'about_us_description_1' => 'Willkommen bei "thatsWE" - diese Plattform ist nur über Ihr Reisebüro erhältlich. Fragen Sie nach dem digitalen Urlaubsbegleiter.',
+    'about_us_description_2' => 'Diese App bietet einzigartige Funktionen von Informationen über den Beginn Ihres Urlaubs, über viele Situationen während Ihres Urlaubs, bis hin zum Speichern Ihrer Urlaubserlebnisse und zur Erstellung Ihrer persönlichen Urlaubsdokumentation.',
+
 
     'website_dev' => 'Webseitenentwicklung durch',
     'company_info' => 'Unternehmensinformationen',

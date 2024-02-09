@@ -7,7 +7,10 @@ return array(
   'fulfill' => 'Kun hos din deltagende rejsebureau: Den digitale feriekammerat.',
   'fulfill_2' => 'Book din drømmeferie og få gavn af de eksklusive funktioner!',
   'diverse' => 'forskellige',
-  'about_us_description' => 'Velkommen til "thatsWE" - denne platform specielt til rejsebureauer til at tilbyde deres kunder en uforglemmelig rejseoplevelse! Udelukkende for rejseagenter tilbyder vores app unikke funktioner - fra information om starten på din ferie til mange situationer under din ferie til at gemme dine ferieoplevelser.',
+
+  'about_us_description_1' => 'Velkommen til "thatsWE" - du kan kun få adgang til denne platform gennem dit rejsebureau. Spørg efter den digitale feriekammerat.',
+  'about_us_description_2' => 'Denne app tilbyder unikke funktioner fra information om starten af din ferie, til mange situationer under din ferie, til at gemme dine ferieoplevelser og oprette din personlige feriedokumentation.',
+
 
 
   'send_offer' => 'Send Tilbud',

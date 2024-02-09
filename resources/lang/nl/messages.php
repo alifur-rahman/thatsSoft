@@ -7,7 +7,10 @@ return array(
   'fulfill' => 'Alleen bij uw deelnemende reisbureau: De digitale vakantie metgezel.',
   'fulfill_2' => 'Boek uw droomvakantie en profiteer van de exclusieve functies!',
   'diverse' => 'diverse',
-  'about_us_description' => 'Welkom bij "thatsWE" - dit platform speciaal voor reisbureaus om hun klanten een onvergetelijke reiservaring te bieden! Exclusief voor reisagenten biedt onze app unieke functies - van informatie over het begin van uw vakantie tot vele situaties tijdens uw vakantie om uw vakantie-ervaringen op te slaan.',
+
+  'about_us_description_1' => 'Welkom bij "thatsWE" - je kunt alleen toegang krijgen tot dit platform via je reisbureau. Vraag naar de digitale vakantiebegeleider.',
+  'about_us_description_2' => 'Deze app biedt unieke functies van informatie over het begin van uw vakantie, tot vele situaties tijdens uw vakantie, tot het opslaan van uw vakantie-ervaringen en het maken van uw persoonlijke vakantiedocumentatie.',
+
 
   'send_offer' => 'Stuur Aanbieding',
   'get_info' => 'Ontvang Informatie',

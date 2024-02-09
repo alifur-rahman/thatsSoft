@@ -12,7 +12,9 @@ return array(
   'home' => 'Home',
   'diverses' => 'Diverses',
 
-  'about_us_description' => 'Welcome to "thatsWE" - this platform especially for travel agencies to offer their customers an unforgettable travel experience! Exclusively for travel agents, our app offers unique features - from information about the start of your vacation to many situations during your vacation to saving your vacation experiences.',
+  'about_us_description_1' => 'Welcome to "thatsWE" - you can only get this platform through your travel agency. Ask about the digital holiday companion.',
+
+  'about_us_description_2' => 'This app offers unique features from information about the start of your vacation, to many situations during your vacation, to saving your vacation experiences and creating your personal vacation docu- mentation.',
 
 
   'website_dev' => 'Website Development By',
