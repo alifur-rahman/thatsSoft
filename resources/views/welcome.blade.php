@@ -29,7 +29,10 @@
                 <div class="col-md-5 col-xxl-5">
                     <h2 style="color: black; margin-bottom:0;">{{ __('messages.about_us') }}</h2>
                     <p>
-                        {{ __('messages.about_us_description') }}
+                        {{ __('messages.about_us_description_1') }}
+                    </p>
+                    <p>
+                        {{ __('messages.about_us_description_2') }}
                     </p>
                 </div>
             </div>

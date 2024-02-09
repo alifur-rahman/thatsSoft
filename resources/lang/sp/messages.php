@@ -6,7 +6,10 @@ return array(
   'fulfill' => 'Solo en tu agencia de viajes participante: El compañero digital de vacaciones.',
   'fulfill_2' => '¡Reserva tus vacaciones de ensueño y benefíciate de las funciones exclusivas!',
   'diverse' => 'diversas',
-  'about_us_description' => '¡Bienvenido a "thatsWE" - esta plataforma especialmente para agencias de viajes para ofrecer a sus clientes una experiencia de viaje inolvidable! Exclusivamente para agentes de viajes, nuestra aplicación ofrece características únicas - desde información sobre el inicio de tus vacaciones hasta muchas situaciones durante tus vacaciones para guardar tus experiencias de vacaciones.',
+
+  'about_us_description_1' => 'Hoş geldiniz "thatsWE" - bu platforma sadece seyahat acenteniz aracılığıyla erişebilirsiniz. Dijital tatil arkadaşınız hakkında soru sorun.',
+  'about_us_description_2' => 'Esta aplicación ofrece características únicas desde información sobre el inicio de sus vacaciones, pasando por muchas situaciones durante sus vacaciones, hasta guardar sus experiencias de vacaciones y crear su documentación de vacaciones personal.',
+
 
   'send_offer' => 'Enviar Oferta',
   'get_info' => 'Obtener Información',

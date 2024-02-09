@@ -7,7 +7,10 @@ return array(
   'fulfill' => 'Uniquement dans votre agence de voyage participante : Le compagnon numérique de vacances.',
   'fulfill_2' => 'Réservez vos vacances de rêve et bénéficiez des fonctionnalités exclusives !',
   'diverse' => 'diverses',
-  'about_us_description' => 'Bienvenue sur "thatsWE" - cette plateforme spécialement conçue pour les agences de voyage afin d\'offrir à leurs clients une expérience de voyage inoubliable ! Exclusivement pour les agents de voyage, notre application propose des fonctionnalités uniques - de l\'information sur le début de vos vacances à de nombreuses situations pendant vos vacances pour sauvegarder vos expériences de vacances.',
+
+  'about_us_description_1' => 'Bienvenue sur "thatsWE" - vous ne pouvez accéder à cette plateforme que par le biais de votre agence de voyage. Renseignez-vous sur le compagnon de vacances numérique.',
+  'about_us_description_2' => 'Cette application offre des fonctionnalités uniques, de l\'information sur le début de vos vacances, à de nombreuses situations pendant vos vacances, en passant par la sauvegarde de vos expériences de vacances et la création de votre documentation de vacances personnelle.',
+
 
 
 
