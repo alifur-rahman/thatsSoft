@@ -95,4 +95,13 @@ return array(
 
 
   'agency_zip_code_title' => 'Rehberlerinizi ThatsWE için PLZ ile arayın',
+
+  'hello_its_me' => "Merhaba, benim adım",
+  'i_found_site_1' => "Çok ilginç bir siteyi ziyaret ettim.",
+  'i_found_site_2' => "Bir sonraki seyahat rezervasyonunuz için dijital bir tatil arkadaşıyla gelecek tatiliniz hakkında!",
+  'i_found_site_3' => "Seyahat acentesine dijital tatil arkadaşını sorun, belki yeni bir tablet ile bile.",
+
+  'travel_agency_msg' => "Tatilciler için site erişimi:",
+  "holiday_customer_msg" => "Seyahat acenteleri için site erişimi:",
+
 );

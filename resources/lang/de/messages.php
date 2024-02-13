@@ -98,4 +98,12 @@ return array(
 
 
     'agency_zip_code_title' => 'Reiseveranstalter mit ThatsWE nach PLZ',
+    'hello_its_me' => "Hej, det er mig",
+    'i_found_site_1' => "Jeg har lige besøgt en meget interessant hjemmeside.",
+    'i_found_site_2' => "Det handler om din næste ferie med en digital feriekammerat til din næste rejsebestilling!",
+    'i_found_site_3' => "Spørg i rejsebureauet om den digitale feriekammerat - måske endda med en ny tablet.",
+
+    'travel_agency_msg' => "Adgang til hjemmesiden for feriegæster:",
+    "holiday_customer_msg" => "Adgang til hjemmesiden for rejsebureauer:",
+
 );

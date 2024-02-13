@@ -95,4 +95,13 @@ return array(
   'images_page_title' => 'Imágenes de ThatsWE',
 
   'agency_zip_code_title' => 'Agencias de viajes con ThatsWE por Código Postal',
+
+  'hello_its_me' => "Hola, soy yo",
+  'i_found_site_1' => "Acabo de visitar un sitio web muy interesante.",
+  'i_found_site_2' => "¡Se trata de tus próximas vacaciones con un compañero de vacaciones digital para tu próxima reserva de viaje!",
+  'i_found_site_3' => "Pregunta en la agencia de viajes por el compañero de vacaciones digital, tal vez incluso con una nueva tableta.",
+
+  'travel_agency_msg' => "Acceso al sitio para vacacionistas:",
+  "holiday_customer_msg" => "Acceso al sitio para agencias de viajes:",
+
 );

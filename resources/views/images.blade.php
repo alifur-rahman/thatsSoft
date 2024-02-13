@@ -27,13 +27,12 @@
                         <h3 class="fw-bold" style="line-height: 1.0;color: #323D9A;">
                             {{ __('messages.images_page_title') }}
                         </h3>
-                        {{-- <p class="fs-6 ">{{ __('messages.order_page_sub_title') }}</p> --}}
+
 
                         <div class="al_image_show_grid">
                             @foreach ($images as $image)
-                                <div class="al_single_images"
-                                    data-hover-img="{{ asset('assets/img/hover-show-demo.png') }}">
-                                    <img src="{{ asset($image->url) }}" alt="{{ $image->name }}">
+                                <div class="al_single_images" data-hover-img="{{ $image->screen_url }}">
+                                    <img src="{{ $image->url }}" alt="{{ $image->name }}">
                                 </div>
                             @endforeach
                         </div>
@@ -51,6 +50,10 @@
 
 @section('styles')
     <style>
+        section {
+            height: inherit !important;
+        }
+
         .al_image_show_grid {
             display: grid;
             gap: 10px;
@@ -83,8 +86,8 @@
 
         .al_show_hover_iamges {
             width: 100%;
-            height: 100%;
-            max-height: calc(100vh - 135px);
+            /* height: 100%; */
+            /* max-height: calc(100vh - 135px); */
             visibility: hidden;
             opacity: 0;
             transition: 0.4s;
@@ -117,8 +120,8 @@
                 $("#idShoHoverImg").attr('src', hoverImgSrc);
             }, function() {
                 // Reset the image source when the mouse leaves
-                $("#idShoHoverImg").attr('src', '');
-                $('.al_show_hover_iamges').removeClass('active-visible');
+                //$("#idShoHoverImg").attr('src', '');
+                // $('.al_show_hover_iamges').removeClass('active-visible');
             });
         });
     </script>

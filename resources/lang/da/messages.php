@@ -96,6 +96,14 @@ return array(
   'full_information' => 'Fuld Information',
   'images' => 'Images',
   'images_page_title' => 'Images fra ThatsWE',
-
   'agency_zip_code_title' => 'Reisebureaus med ThatsWE efter postnummer',
+
+  'hello_its_me' => "Hej, det er mig",
+  'i_found_site_1' => "Jeg har lige besøgt en meget interessant hjemmeside.",
+  'i_found_site_2' => "Det handler om din næste ferie med en digital feriekammerat til din næste rejsebestilling!",
+  'i_found_site_3' => "Spørg i rejsebureauet om den digitale feriekammerat - måske endda med en ny tablet.",
+
+  'travel_agency_msg' => "Adgang til hjemmesiden for feriegæster:",
+  "holiday_customer_msg" => "Adgang til hjemmesiden for rejsebureauer:",
+
 );

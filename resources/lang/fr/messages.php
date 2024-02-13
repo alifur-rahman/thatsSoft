@@ -100,4 +100,13 @@ return array(
 
 
   'agency_zip_code_title' => 'Agences de voyage avec ThatsWE par code postal',
+
+  'hello_its_me' => "Bonjour, c'est moi",
+  'i_found_site_1' => "Je viens de visiter un site très intéressant.",
+  'i_found_site_2' => "Il s'agit de vos prochaines vacances avec un compagnon de vacances numérique pour votre prochaine réservation de voyage !",
+  'i_found_site_3' => "Demandez à l'agence de voyages pour le compagnon de vacances numérique, peut-être même avec une nouvelle tablette.",
+
+  'travel_agency_msg' => "Accès au site pour les vacanciers :",
+  "holiday_customer_msg" => "Accès au site pour les agences de voyages :",
+
 );

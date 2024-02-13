@@ -98,5 +98,14 @@ return array(
 
 
   'agency_zip_code_title' => 'Agenzie di viaggi con ThatsWE per ciascun CAP',
+
+  'hello_its_me' => "Ciao, sono io",
+  'i_found_site_1' => "Ho appena visitato un sito molto interessante.",
+  'i_found_site_2' => "Si tratta delle tue prossime vacanze con un compagno di vacanza digitale per la tua prossima prenotazione di viaggio!",
+  'i_found_site_3' => "Chiedi in agenzia viaggi per il compagno di vacanza digitale, magari anche con un nuovo tablet.",
+
+  'travel_agency_msg' => "Accesso al sito per i vacanzieri:",
+  "holiday_customer_msg" => "Accesso al sito per le agenzie di viaggio:",
+
 );
 
