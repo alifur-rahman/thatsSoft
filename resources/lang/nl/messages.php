@@ -97,4 +97,13 @@ return array(
 
 
   'agency_zip_code_title' => 'Reisbureaus met ThatsWE per postcode',
+
+  'hello_its_me' => "Hallo, hier ben ik",
+  'i_found_site_1' => "Ik heb zojuist een zeer interessante website bezocht.",
+  'i_found_site_2' => "Het gaat over jouw volgende vakantie met een digitale vakantiegenoot voor je volgende reisboeking!",
+  'i_found_site_3' => "Vraag in het reisbureau naar de digitale vakantiegenoot, misschien zelfs met een nieuwe tablet.",
+
+  'travel_agency_msg' => "Toegang tot de website voor vakantiegangers:",
+  "holiday_customer_msg" => "Toegang tot de website voor reisbureaus:",
+
 );

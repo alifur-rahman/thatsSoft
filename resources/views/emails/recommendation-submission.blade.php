@@ -19,13 +19,25 @@
         <!-- Display recommendation form data -->
         <div class="row mt-4">
             <div class="col-md-6">
-                <strong>{{ __('messages.hello_its_me') }} | {{ $formData['yourName'] }} |</strong>
+                <p><strong>{{ __('messages.hello_its_me') }} | {{ $formData['yourName'] }} |</strong></p>
             </div>
             <div class="col-md-6">
-                <strong>{{ __('messages.i_found_site_2') }} <a href="https://www.thatswe.de">www.thatswe.de</a></strong>
+                <p>
+                    <strong>{{ __('messages.i_found_site_1') }}</strong> <br>
+                    <strong>{{ __('messages.i_found_site_2') }}</strong>
+                </p>
+                <p>
+                    <strong>{{ __('messages.i_found_site_3') }}</strong>
+
+                </p>
             </div>
             <div class="col-md-6">
-                <strong><a href="https://www.thatswe.de">thatsWE</a></strong>
+                <p>
+                    <strong> {{ __('messages.travel_agency_msg') }} <a
+                            href="www.thatssoft.de">www.thatssoft.de</a></strong> <br>
+                    <strong>{{ __('messages.holiday_customer_msg') }} <a
+                            href="www.thatswe.de">www.thatswe.de</a></strong>
+                </p>
             </div>
         </div>
 

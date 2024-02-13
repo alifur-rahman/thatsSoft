@@ -90,8 +90,7 @@ return array(
   'country' => 'País',
   'app_name' => 'Nombre de la Aplicación',
   'logo_no' => 'Número de Logo',
-  'hello_its_me' => 'Hola, soy yo',
-  'i_found_site_2' => 'Acabo de visitar un sitio interesante. Se trata de la lealtad del cliente y el crecimiento del cliente y, por supuesto, también sobre el aumento de las ventas. El acceso a la página: ',
+
   'close' => 'Cerrar',
   'full_information' => 'Información Completa',
   'images' => 'Imágenes',
@@ -99,4 +98,13 @@ return array(
 
 
   'agency_zip_code_title' => 'Agencias de viajes con ThatsWE por código postal',
+
+  'hello_its_me' => "Hola, soy yo",
+  'i_found_site_1' => "Acabo de visitar un sitio web muy interesante.",
+  'i_found_site_2' => "Se trata de tus próximas vacaciones con un compañero digital para tus próximas reservas de viaje.",
+  'i_found_site_3' => "Pregunta en la agencia de viajes por el compañero digital, quizás incluso con una nueva tableta.",
+
+  'travel_agency_msg' => "Acceso al sitio para vacacionistas:",
+  "holiday_customer_msg" => "Acceso al sitio para agencias de viajes:",
+
 );
