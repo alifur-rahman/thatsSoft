@@ -48,67 +48,53 @@ class TravelController extends Controller
     {
         $images = [
             (object) [
-                'url' => asset('/assets/img/screen-logo/01-My-Booking.png'),
-                'name' => 'My Bookings',
-                'screen_url' => asset('/assets/img/screen-logo/001-My-Bookings.png'),
+                'url' => asset('/assets/img/screen-logo/1-Start.png'),
+                'name' => 'Start',
+                'screen_url' => asset('/assets/img/screen-logo/1A-Start.png'),
             ],
             (object) [
-                'url' => asset('/assets/img/screen-logo/02-Arrival-Departure.png'),
-                'name' => 'Arrival Departure',
-                'screen_url' => asset('/assets/img/screen-logo/002-Arrival-Departure.png'),
+                'url' => asset('/assets/img/screen-logo/2-booking.png'),
+                'name' => 'Booking',
+                'screen_url' => asset('/assets/img/screen-logo/2A-booking.png'),
             ],
 
             (object) [
-                'url' => asset('/assets/img/screen-logo/03-Preparation.png'),
-                'name' => 'The preparation',
-                'screen_url' => asset('/assets/img/screen-logo/003-The-preparation.png'),
-            ],
-            (object) [
-                'url' => asset('/assets/img/screen-logo/04-Accommodation.png'),
+                'url' => asset('/assets/img/screen-logo/3-Accommodation.png'),
                 'name' => 'Accommodation',
-                'screen_url' => '',
+                'screen_url' => asset('/assets/img/screen-logo/3A-Accommodation.png'),
             ],
             (object) [
-                'url' => asset('/assets/img/screen-logo/05-Location-Info.png'),
-                'name' => 'Location',
-                'screen_url' => asset('/assets/img/screen-logo/005-Location.png'),
+                'url' => asset('/assets/img/screen-logo/4-Search.png'),
+                'name' => 'Search',
+                'screen_url' => asset('/assets/img/screen-logo/4A-Search.png'),
             ],
             (object) [
-                'url' => asset('/assets/img/screen-logo/06-Vicinity.png'),
-                'name' => 'Vicinity',
-                'screen_url' => asset('/assets/img/screen-logo/006-Environment-1.png'),
+                'url' => asset('/assets/img/screen-logo/5-Conversations.png'),
+                'name' => 'Conversations',
+                'screen_url' => asset('/assets/img/screen-logo/5A-conversations.png'),
             ],
             (object) [
-                'url' => asset('/assets/img/screen-logo/07-I-am-looking.png'),
-                'name' => 'I am looking for',
-                'screen_url' => asset('/assets/img/screen-logo/007-I-am-looking-for.png'),
+                'url' => asset('/assets/img/screen-logo/6-diarys.png'),
+                'name' => 'Diarys',
+                'screen_url' => asset('/assets/img/screen-logo/6A-diarys.png'),
+            ],
+            (object) [
+                'url' => asset('/assets/img/screen-logo/7-Health.png'),
+                'name' => 'Health',
+                'screen_url' => asset('/assets/img/screen-logo/7A-Health.png'),
             ],
 
             (object) [
-                'url' => asset('/assets/img/screen-logo/08-Conversations.png'),
-                'name' => 'Conversations',
-                'screen_url' => asset('/assets/img/screen-logo/008-Conversations.png'),
+                'url' => asset('/assets/img/screen-logo/8-PDF-prints.png'),
+                'name' => 'PDF prints',
+                'screen_url' => asset('/assets/img/screen-logo/8A-PDF-prints.png'),
             ],
             (object) [
-                'url' => asset('/assets/img/screen-logo/09-My-diary.png'),
-                'name' => 'My Diary',
-                'screen_url' => asset('/assets/img/screen-logo/009-My-diary.png'),
+                'url' => asset('/assets/img/screen-logo/9-Settings.png'),
+                'name' => 'Settings',
+                'screen_url' => asset('/assets/img/screen-logo/9A-Settings.png'),
             ],
-            (object) [
-                'url' => asset('/assets/img/screen-logo/10-Sick.png'),
-                'name' => 'Sick',
-                'screen_url' => asset('/assets/img/screen-logo/010-sick.png'),
-            ],
-            (object) [
-                'url' => asset('/assets/img/screen-logo/11-PDF-Prints.png'),
-                'name' => 'PDF Prints',
-                'screen_url' => asset('/assets/img/screen-logo/011-PDF-PRINTS.png'),
-            ],
-            (object) [
-                'url' => asset('/assets/img/screen-logo/12-Travel-Partners.png'),
-                'name' => 'Data Protection',
-                'screen_url' => asset('/assets/img/screen-logo/012-Data-Protection.png'),
-            ],
+
 
 
 
