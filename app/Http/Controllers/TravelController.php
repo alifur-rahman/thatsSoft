@@ -11,6 +11,7 @@ use App\Mail\RecommendationSubmission;
 use Illuminate\Support\Facades\Validator;
 use App\Models\appImages;
 use App\Models\CoPolicy;
+use App\Models\AgencyZip;
 
 class TravelController extends Controller
 {
@@ -45,9 +46,10 @@ class TravelController extends Controller
             'im_' . $userLanguage . ' as imprint_msg',
         ];
         $CoPolicyData = CoPolicy::select($columnsOfContent)->limit(1)->get();
+        $thatWeAgency = AgencyZip::all();
 
       
-        return view('policy', ['CoPolicyData' => $CoPolicyData]);
+        return view('policy', ['CoPolicyData' => $CoPolicyData], ['thatWeAgency' => $thatWeAgency]);
     }
 
     public function order()
