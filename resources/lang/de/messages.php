@@ -104,7 +104,8 @@ return array(
     'i_found_site_3' => "Fragen Sie im Reisebüro nach dem digitalen Urlaubsbegleiter - vielleicht sogar mit einem neuen Tablet.",
 
 
-    'travel_agency_msg' => "Adgang til hjemmesiden for feriegæster:",
-    "holiday_customer_msg" => "Adgang til hjemmesiden for rejsebureauer:",
+
+    'travel_agency_msg' => "Der Seitenzugang für Reisebüros:",
+    "holiday_customer_msg" => "Der Site-Zugang für Ferienkunden:",
 
 );
