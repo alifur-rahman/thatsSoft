@@ -43,53 +43,33 @@
                                 <div class="card-body">
                                     <h3 class="text-center mb-2">{{ __('messages.agency_zip_code_title') }}</h3>
 
-                                    <table class="table table-bordered">
-                                        <tbody>
-                                            <tr>
-                                                <th>1</th>
-                                                <td> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-                                            </tr>
-                                            <tr>
-                                                <th>2</th>
-                                                <td> </td>
-                                            </tr>
-                                            <tr>
-                                                <th>3</th>
-                                                <td> </td>
-                                            </tr>
-                                            <tr>
-                                                <th>4</th>
-                                                <td> </td>
-                                            </tr>
-                                            <tr>
-                                                <th>5</th>
-                                                <td> </td>
-                                            </tr>
-                                            <tr>
-                                                <th>6</th>
-                                                <td> </td>
-                                            </tr>
-                                            <tr>
-                                                <th>7</th>
-                                                <td> </td>
-                                            </tr>
-                                            <tr>
-                                                <th>8</th>
-                                                <td> </td>
-                                            </tr>
-                                            <tr>
-                                                <th>9</th>
-                                                <td> </td>
-                                            </tr>
-                                            <tr>
-                                                <th>0</th>
-                                                <td> </td>
-                                            </tr>
+                                    <div class="al_tableyOverflow">
+                                        <div class="row p-2">
+                                            @foreach ($thatWeAgency as $index => $value)
+                                                <div class="mb-1 d-flex justify-content-between">
+                                                    <div class="col-2 border  text-center"> <b>{{ $index + 1 }} </b>
+                                                    </div>
+                                                    <div class="col-10 p-0 border">
+                                                        <ul class="list-unstyled mb-0 p-0">
+                                                            <li class="border-bottom p-1">ZIP : {{ $value->zip }}</li>
+                                                            <li class="border-bottom p-1"> Compnay :
+                                                                {{ $value->company_name }}
+                                                            </li>
+                                                            <li class="border-bottom p-1"> Street : {{ $value->street }}
+                                                            </li>
+                                                            <li class="border-bottom p-1"> City : {{ $value->city }}</li>
+                                                            <li class="border-bottom p-1"> Tel : {{ $value->telephone }}
+                                                            </li>
+                                                            <li class="border-bottom p-1"> Email : {{ $value->email }}</li>
+                                                            <li class="border-bottom p-1"> WWW : {{ $value->site_url }}
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            @endforeach
+                                        </div>
+                                    </div>
 
-                                        </tbody>
-                                    </table>
 
 
                                     <div class="text-center al_card_footer">
@@ -258,6 +238,13 @@
 
 @section('styles')
     <style>
+        .al_tableyOverflow {
+            display: block;
+            height: 410px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
         .al_privecy_page {
             height: 100%;
             position: initial;
