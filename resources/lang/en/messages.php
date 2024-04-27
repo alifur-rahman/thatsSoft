@@ -95,8 +95,8 @@ return array(
   'i_found_site_2' => " It's about your next vacation with a digital one Holiday companion for your next travel booking can be handed out!",
   'i_found_site_3' => "In the travel agency for the digital holiday companion ask - maybe even with a new tablet.",
 
-  'travel_agency_msg' => "The site access for holidaymakers: ",
-  "holiday_customer_msg" => "The site access for travel agencies:",
+  'travel_agency_msg' => "The site access for travel agencies: ",
+  "holiday_customer_msg" => "The site access for holiday customers: ",
 
   'close' => 'Close',
   'full_inoformation' => 'Full Inoformation',

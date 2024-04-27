@@ -9,6 +9,8 @@ use App\Mail\OfferSubmission;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\RecommendationSubmission;
 use Illuminate\Support\Facades\Validator;
+use App\Models\appImages;
+use App\Models\CoPolicy;
 
 class TravelController extends Controller
 {
@@ -36,7 +38,16 @@ class TravelController extends Controller
 
     public function policy()
     {
-        return view('policy');
+        $userLanguage = app()->getLocale();
+        // Data Protection content 
+        $columnsOfContent = [
+            'dp_' . $userLanguage . ' as data_protection_msg',
+            'im_' . $userLanguage . ' as imprint_msg',
+        ];
+        $CoPolicyData = CoPolicy::select($columnsOfContent)->limit(1)->get();
+
+      
+        return view('policy', ['CoPolicyData' => $CoPolicyData]);
     }
 
     public function order()
@@ -46,63 +57,10 @@ class TravelController extends Controller
 
     public function images()
     {
-        $images = [
-            (object) [
-                'url' => asset('/assets/img/screen-logo/1-Start.png'),
-                'name' => 'Start',
-                'screen_url' => asset('/assets/img/screen-logo/1A-Start.png'),
-            ],
-            (object) [
-                'url' => asset('/assets/img/screen-logo/2-booking.png'),
-                'name' => 'Booking',
-                'screen_url' => asset('/assets/img/screen-logo/2A-booking.png'),
-            ],
-
-            (object) [
-                'url' => asset('/assets/img/screen-logo/3-Accommodation.png'),
-                'name' => 'Accommodation',
-                'screen_url' => asset('/assets/img/screen-logo/3A-Accommodation.png'),
-            ],
-            (object) [
-                'url' => asset('/assets/img/screen-logo/4-Search.png'),
-                'name' => 'Search',
-                'screen_url' => asset('/assets/img/screen-logo/4A-Search.png'),
-            ],
-            (object) [
-                'url' => asset('/assets/img/screen-logo/5-Conversations.png'),
-                'name' => 'Conversations',
-                'screen_url' => asset('/assets/img/screen-logo/5A-conversations.png'),
-            ],
-            (object) [
-                'url' => asset('/assets/img/screen-logo/6-diarys.png'),
-                'name' => 'Diarys',
-                'screen_url' => asset('/assets/img/screen-logo/6A-diarys.png'),
-            ],
-            (object) [
-                'url' => asset('/assets/img/screen-logo/7-Health.png'),
-                'name' => 'Health',
-                'screen_url' => asset('/assets/img/screen-logo/7A-Health.png'),
-            ],
-
-            (object) [
-                'url' => asset('/assets/img/screen-logo/8-PDF-prints.png'),
-                'name' => 'PDF prints',
-                'screen_url' => asset('/assets/img/screen-logo/8A-PDF-prints.png'),
-            ],
-            (object) [
-                'url' => asset('/assets/img/screen-logo/9-Settings.png'),
-                'name' => 'Settings',
-                'screen_url' => asset('/assets/img/screen-logo/9A-Settings.png'),
-            ],
-
-
-
-
-            // Add more images as needed
-        ];
-
+        $images = appImages::all();
         return view('images')->with('images', $images);
     }
+
 
 
 

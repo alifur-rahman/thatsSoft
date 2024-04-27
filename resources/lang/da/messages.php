@@ -103,7 +103,8 @@ return array(
   'i_found_site_2' => "Det handler om din næste ferie med en digital feriekammerat til din næste rejsebestilling!",
   'i_found_site_3' => "Spørg i rejsebureauet om den digitale feriekammerat - måske endda med en ny tablet.",
 
-  'travel_agency_msg' => "Adgang til hjemmesiden for feriegæster:",
-  "holiday_customer_msg" => "Adgang til hjemmesiden for rejsebureauer:",
+
+  'travel_agency_msg' => "Adgang til hjemmesiden for rejsebureauer:",
+  "holiday_customer_msg" => "Adgang til hjemmesiden for feriekunder:",
 
 );
