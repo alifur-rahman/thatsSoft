@@ -43,15 +43,17 @@
                                 <div class="card-body">
                                     <h3 class="text-center mb-2">{{ __('messages.agency_zip_code_title') }}</h3>
                                     @if (count($thatWeAgency) > 0)
+                                        <p class="m-0 ps-4 text-primary">ZIP</p>
                                         <div class="al_tableyOverflow">
+
                                             <div class="row p-2">
                                                 @foreach ($thatWeAgency as $index => $value)
                                                     <div class="mb-1 d-flex justify-content-between">
-                                                        <div class="col-2 border  text-center"> <b>{{ $index + 1 }} </b>
+                                                        <div class="col-2 border  text-center"> <b> {{ $value->zip }} </b>
                                                         </div>
                                                         <div class="col-10 p-0 border">
                                                             <ul class="list-unstyled mb-0 p-0">
-                                                                <li class="border-bottom p-1">ZIP : {{ $value->zip }}</li>
+
                                                                 <li class="border-bottom p-1"> Compnay :
                                                                     {{ $value->company_name }}
                                                                 </li>
