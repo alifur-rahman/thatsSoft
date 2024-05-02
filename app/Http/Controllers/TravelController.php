@@ -46,7 +46,8 @@ class TravelController extends Controller
             'im_' . $userLanguage . ' as imprint_msg',
         ];
         $CoPolicyData = CoPolicy::select($columnsOfContent)->limit(1)->get();
-        $thatWeAgency = AgencyZip::all();
+        $thatWeAgency = AgencyZip::orderBy('zip', 'asc')->get();
+
 
       
         return view('policy', ['CoPolicyData' => $CoPolicyData], ['thatWeAgency' => $thatWeAgency]);
