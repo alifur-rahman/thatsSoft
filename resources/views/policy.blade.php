@@ -52,20 +52,21 @@
                                                         <div class="col-2 border  text-center"> <b> {{ $value->zip }} </b>
                                                         </div>
                                                         <div class="col-10 p-0 border">
-                                                            <ul class="list-unstyled mb-0 p-0">
+                                                            <ul class="list-unstyled mb-0 ps-2 pe-2 pt-1 pb-1"
+                                                                style="font-size: 15px; line-height: 20px;">
 
-                                                                <li class="border-bottom p-1"> Compnay :
+                                                                <li class=""> Compnay :
                                                                     {{ $value->company_name }}
                                                                 </li>
-                                                                <li class="border-bottom p-1"> Street : {{ $value->street }}
+                                                                <li class=""> Street : {{ $value->street }}
                                                                 </li>
-                                                                <li class="border-bottom p-1"> City : {{ $value->city }}
+                                                                <li class=""> City : {{ $value->city }}
                                                                 </li>
-                                                                <li class="border-bottom p-1"> Tel : {{ $value->telephone }}
+                                                                <li class=" "> Tel : {{ $value->telephone }}
                                                                 </li>
-                                                                <li class="border-bottom p-1"> Email : {{ $value->email }}
+                                                                <li class=" "> Email : {{ $value->email }}
                                                                 </li>
-                                                                <li class="border-bottom p-1"> WWW : {{ $value->site_url }}
+                                                                <li class=""> WWW : {{ $value->site_url }}
                                                                 </li>
                                                             </ul>
                                                         </div>
